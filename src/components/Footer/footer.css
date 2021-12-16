@@ -1,0 +1,45 @@
+.footer-section {
+    background: #EBE7E2;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.footer-border {
+    display: block;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(168,103,25,1) 0%, rgba(255,160,0,1) 79%);;
+}
+
+
+.footer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-card {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+
+}
+
+@media (max-width: 650px) {
+    .none{
+        display:none;
+    }
+    .footer-card {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+}
+
+.footer-card a {
+    font-size: .9rem;
+    line-height: 2em;
+    opacity: .8;
+}
+
+.address {
+    font-size: .7rem;
+    opacity: .6;
+}

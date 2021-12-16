@@ -1,0 +1,10 @@
+.process-area {
+    padding: 30px 0;
+    min-height: 200px;
+    text-align: center;
+}
+
+.process-area h2 {
+    color: #F45B1C;
+    text-decoration: underline;
+}

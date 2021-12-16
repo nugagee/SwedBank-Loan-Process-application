@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 !important;
+  font-size: 14px;
+}
+/* body{
+  height:100vh;
+  width:100vh;
+} */
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+.App {
+  background: #FBF2EA;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+@media (max-width: 650px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.btn-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
